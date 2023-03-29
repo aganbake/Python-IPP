@@ -1,7 +1,7 @@
-# Descomentar información dentro de cada print a antes del siguiente para probar
 #Kevin Villarroel
 
 print("\n:::::::::::1:::::::::::\n")
+#Convertir grados celcius a fahrenheit
 
 ingreso = str(input('Por favor ingrese los grados Celcius: '))
 
@@ -13,6 +13,7 @@ def grados():
 grados()
 
 print("\n:::::::::::2:::::::::::\n")
+#Calcular promedio de 3 números solicitados
 
 A = int(input('Por favor ingrese el primer número: '))
 B = int(input('Por favor ingrese el segundo número: '))
@@ -25,6 +26,7 @@ def promedio():
 promedio()
 
 print("\n:::::::::::3:::::::::::\n")
+#calcular notas de un curso en base a parametros
 
 #Contantes
 
@@ -78,6 +80,7 @@ def calculo():
 calculo()
 
 print("\n:::::::::::4:::::::::::\n")
+#calcular el dígito verificador de un número de rut
 
 #Contantes
 secuencia = [2,3,4,5,6,7,2,3]
@@ -119,3 +122,4 @@ n = inverso(rut)
 print(f'\nEl rut con digito verificador es: {rut}-{calculo()}\n') 
 
 print("::::::::::FIN::::::::::")
+#repo de github https://github.com/aganbake/Python-IPP.git
